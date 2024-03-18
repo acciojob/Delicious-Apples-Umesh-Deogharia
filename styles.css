@@ -1,1 +1,18 @@
 /* your code here */
+body{
+	background-color:springgreen;
+}
+
+.product{
+	background-color:white;
+}
+
+.product__info{
+	display:flex;
+	flex-direction:column;
+}
+
+ul{
+	display:flex;
+	
+}
