@@ -1,18 +1,26 @@
 /* your code here */
-body{
-	background-color:springgreen;
+body {
+    width: 100vw;
+    background-color: springgreen;
 }
 
-.product{
-	background-color:white;
+.product {
+    background-color: white;
+    display: flex;
 }
 
-.product__info{
-	display:flex;
-	flex-direction:column;
+.product__info {
+    display: flex;
+    flex-direction: column;
 }
 
-ul{
-	display:flex;
-	
+ul {
+    display: flex;
+
+}
+
+.photo-container {
+    /* display:flex; */
+
+    background-color: limegreen;
 }
