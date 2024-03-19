@@ -12,6 +12,23 @@ body {
 .product__info {
     display: flex;
     flex-direction: column;
+	box-sizing:border-box;
+}
+
+.title span{
+	color:grey;
+}
+
+.price{
+	color:red;
+}
+
+.variant ul{
+	list-style-type:none;
+}
+
+.price span{
+	font-size:50px;
 }
 
 ul {
@@ -23,4 +40,24 @@ ul {
     /* display:flex; */
 
     background-color: limegreen;
+}
+
+button{
+	background-color:red;
+	color:white;
+	padding:4px 8px;
+	border:none;
+	border-radius:5px;
+}
+
+h3{
+	color:gray;
+}
+.description ul{
+	display:flex;
+	flex-direction:column;
+}
+
+#green_apple{
+	border:1px solid gray;
 }
